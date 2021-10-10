@@ -19,4 +19,13 @@ public class CalculatorTest {
 
         assertEquals(expectedResult, result);
     }
+
+    @Test
+    public void addTest2(){
+        int expectedResult = 5;
+
+        int result = calculator.add(3, 2);
+
+        assertEquals(expectedResult, result);
+    }
 }
