@@ -13,7 +13,7 @@ public class CalculatorTest {
 
     @Test
     public void addTest(){
-        int expectedResult = 3;
+        int expectedResult = 4;
 
         int result = calculator.add(1, 2);
 
